@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Meita Rosa Indah – Projects and Research</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0d2342;
+  --blue:#2563eb;
+  --light-blue:#eaf2ff;
+  --text:#17233c;
+  --muted:#5b6b86;
+  --line:#d9e7ff;
+  --bg:#f5f8fd;
+  --white:#ffffff;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:'Inter','Segoe UI',Arial,sans-serif;
+  background:var(--bg);
+  color:var(--text);
+}
+.hero{
+  background:linear-gradient(135deg,#0d2342 0%,#1e5ed9 55%,#65a7ff 100%);
+  color:#fff;
+  padding:70px 22px 72px;
+}
+.hero-inner{
+  max-width:1080px;
+  margin:0 auto;
+}
+.kicker{
+  display:inline-flex;
+  gap:8px;
+  align-items:center;
+  padding:8px 14px;
+  border-radius:999px;
+  background:rgba(255,255,255,.16);
+  border:1px solid rgba(255,255,255,.22);
+  font-size:14px;
+  font-weight:700;
+  margin-bottom:20px;
+}
+h1{
+  margin:0;
+  font-size:clamp(36px,5vw,58px);
+  line-height:1.04;
+  letter-spacing:-1.8px;
+}
+.hero p{
+  max-width:820px;
+  margin:20px 0 0;
+  color:rgba(255,255,255,.9);
+  font-size:18px;
+  line-height:1.7;
+}
+.main{
+  max-width:1080px;
+  margin:-36px auto 70px;
+  padding:0 22px;
+}
+.section-title{
+  background:var(--white);
+  border:1px solid var(--line);
+  border-radius:24px;
+  padding:26px 30px;
+  box-shadow:0 18px 45px rgba(13,35,66,.08);
+  margin-bottom:22px;
+}
+.section-title h2{
+  margin:0;
+  color:var(--navy);
+  font-size:26px;
+  letter-spacing:-.6px;
+}
+.section-title p{
+  margin:10px 0 0;
+  color:var(--muted);
+  line-height:1.6;
+}
+.grid{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:22px;
+}
+.card{
+  position:relative;
+  background:var(--white);
+  border:1px solid var(--line);
+  border-radius:28px;
+  padding:34px 38px;
+  box-shadow:0 16px 42px rgba(13,35,66,.07);
+  overflow:hidden;
+  transition:transform .22s ease, box-shadow .22s ease;
+}
+.card:before{
+  content:"";
+  position:absolute;
+  inset:0 0 auto 0;
+  height:5px;
+  background:linear-gradient(90deg,#0d2342,#2563eb,#86b7ff);
+}
+.card:hover{
+  transform:translateY(-4px);
+  box-shadow:0 22px 55px rgba(13,35,66,.12);
+}
+.tag{
+  display:inline-flex;
+  align-items:center;
+  color:var(--blue);
+  background:var(--light-blue);
+  border-radius:999px;
+  padding:8px 16px;
+  font-size:14px;
+  font-weight:800;
+  margin-bottom:18px;
+}
+.card h3{
+  margin:0 0 12px;
+  color:var(--navy);
+  font-size:clamp(24px,3vw,34px);
+  line-height:1.24;
+  letter-spacing:-.9px;
+}
+.meta{
+  color:var(--muted);
+  font-size:15px;
+  margin-bottom:22px;
+  font-weight:500;
+}
+ul{
+  margin:0 0 28px;
+  padding-left:22px;
+}
+li{
+  color:#465775;
+  font-size:17px;
+  line-height:1.72;
+  margin:0 0 10px;
+}
+.actions{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+}
+.btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  padding:14px 22px;
+  min-width:128px;
+  background:var(--navy);
+  color:#fff;
+  border-radius:16px;
+  text-decoration:none;
+  font-weight:800;
+  box-shadow:0 10px 22px rgba(13,35,66,.18);
+  transition:background .2s ease, transform .2s ease;
+}
+.btn:hover{
+  background:#183b6e;
+  transform:translateY(-1px);
+}
+.footer{
+  text-align:center;
+  color:#72819a;
+  font-size:14px;
+  padding:0 22px 50px;
+}
+@media(max-width:700px){
+  .hero{padding:48px 18px 62px}
+  .main{padding:0 14px;margin-top:-28px}
+  .section-title,.card{border-radius:20px;padding:24px 20px}
+  li{font-size:15.5px}
+}
+</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="kicker">Research Portfolio</div>
+      <h1>Meita Rosa Indah</h1>
+      <p>Economics graduate with research interests in monetary policy, financial markets, macroeconomic transmission, policy analysis, trade policy, and Indonesia’s economic transformation.</p>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="section-title">
+      <h2>Projects and Research</h2>
+      <p>Selected research works covering macroeconomics, monetary policy, global economic spillovers, trade policy, and strategic investment policy.</p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <div class="tag">Trade Policy</div>
+        <h3>Reciprocal Tariff Policy of the United States and Its Impact on Indonesia</h3>
+        <div class="meta">Researcher: Meita Rosa Indah</div>
+        <ul>
+          <li>Analyzed the United States reciprocal tariff policy and its implications for Indonesia’s export performance.</li>
+          <li>Evaluated inconsistencies with WTO and GATT principles, particularly regarding non-discrimination and tariff commitments.</li>
+          <li>Assessed sectoral exposure of export-oriented industries, including electronics, textiles, and manufacturing.</li>
+          <li>Formulated policy recommendations to mitigate trade shocks through industrial strengthening and export diversification.</li>
+        </ul>
+        <div class="actions"><a class="btn" href="https://drive.google.com/file/d/1OtGHTFlEvfs_1R-xetXKXhTKqMunqvIT/view?usp=sharing" target="_blank" rel="noopener">Open PDF</a></div>
+      </article>
+
+      <article class="card">
+        <div class="tag">Global Economics</div>
+        <h3>Impact of United States Policies on the Indonesian Economy (2020–2023)</h3>
+        <div class="meta">Researcher: Meita Rosa Indah</div>
+        <ul>
+          <li>Analyzed transmission mechanisms of US economic shocks to Indonesia through real sector and financial market channels.</li>
+          <li>Examined dual demand–supply shock impacts of the COVID-19 pandemic on Indonesia’s economic slowdown.</li>
+          <li>Evaluated spillover effects of US policies on capital flows, exchange rates, and domestic macroeconomic stability.</li>
+          <li>Developed analytical framework on policy transmission, including economic fundamentals, financial markets, and policy responses.</li>
+        </ul>
+        <div class="actions"><a class="btn" href="https://drive.google.com/file/d/15TAspKU9ilOj9GO21HBF3rPZuklN0HXv/view?usp=sharing" target="_blank" rel="noopener">Open PDF</a></div>
+      </article>
+
+      <article class="card">
+        <div class="tag">Macroeconomics</div>
+        <h3>US Economy During and Post-Pandemic Era (2020–2023): Assessment and Policy</h3>
+        <div class="meta">Researcher: Meita Rosa Indah</div>
+        <ul>
+          <li>Analyzed the impact of the COVID-19 pandemic on the United States economy, including economic contraction, unemployment surge, and financial market volatility.</li>
+          <li>Evaluated fiscal and monetary policy responses, including the CARES Act stimulus and Federal Reserve measures such as interest rate cuts and quantitative easing.</li>
+          <li>Assessed policy trade-offs between economic recovery and rising fiscal deficit, alongside inflation dynamics and tightening measures.</li>
+          <li>Examined post-pandemic recovery dynamics, highlighting improved growth, declining inflation, and economic resilience.</li>
+        </ul>
+        <div class="actions"><a class="btn" href="https://drive.google.com/file/d/1TS_nvWGMNJ239aapHFmvtkCFMeFRRAm9/view?usp=sharing" target="_blank" rel="noopener">Open PDF</a></div>
+      </article>
+
+      <article class="card">
+        <div class="tag">Policy & Investment</div>
+        <h3>Danantara: Catalyst for Transformation or a New Source of Systemic Risk</h3>
+        <div class="meta">Researcher: Meita Rosa Indah</div>
+        <ul>
+          <li>Analyzed the institutional design of Danantara as Indonesia’s sovereign wealth and strategic investment vehicle.</li>
+          <li>Evaluated its role in optimizing state-owned enterprise assets and supporting long-term economic transformation.</li>
+          <li>Assessed potential risks related to governance, fiscal exposure, and systemic financial stability.</li>
+          <li>Examined trade-offs between investment efficiency, state control, and macroeconomic risk.</li>
+        </ul>
+        <div class="actions"><a class="btn" href="https://drive.google.com/file/d/1g9x7kVJ1Z7RFSLdw7JuEfHDAZYJhc_VL/view?usp=sharing" target="_blank" rel="noopener">Open PDF</a></div>
+      </article>
+
+      <article class="card">
+        <div class="tag">Macroeconomic Outlook</div>
+        <h3>Indonesia and Global Economic Developments: Q3 2024</h3>
+        <div class="meta">Researcher: Meita Rosa Indah</div>
+        <ul>
+          <li>Analyzed Indonesia’s macroeconomic performance within the global economic context.</li>
+          <li>Evaluated inflation trends, growth dynamics, and monetary policy direction.</li>
+          <li>Assessed external risks including global financial tightening and economic uncertainty.</li>
+          <li>Generated insights on maintaining macroeconomic stability and policy coordination.</li>
+        </ul>
+        <div class="actions"><a class="btn" href="https://drive.google.com/file/d/1PX7Dk0pJ4m0bG_jFDc2HHn3Ws2nZZrfo/view?usp=sharing" target="_blank" rel="noopener">Open PDF</a></div>
+      </article>
+
+      <article class="card">
+        <div class="tag">Monetary Policy</div>
+        <h3>Monetary Policy and Regional Inequality (Monetary Whispers Across Space)</h3>
+        <div class="meta">Researcher: Meita Rosa Indah</div>
+        <ul>
+          <li>Analyzed the relationship between monetary policy and regional inequality.</li>
+          <li>Examined how differences in regional structures affect monetary policy transmission.</li>
+          <li>Assessed the role of credit allocation and financial intermediation in shaping regional outcomes.</li>
+          <li>Derived policy implications to support inclusive and balanced economic development.</li>
+        </ul>
+        <div class="actions"><a class="btn" href="https://drive.google.com/file/d/1TSpAMmkNS5w5MYXuga7iuJeboKR1qbym/view?usp=sharing" target="_blank" rel="noopener">Open PDF</a></div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">© Meita Rosa Indah — Research Portfolio</footer>
+</body>
+</html>
